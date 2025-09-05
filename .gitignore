@@ -1,0 +1,29 @@
+# Local env files
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Vectorstore (auto-generated index)
+vectorstore/
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+
+# Docker artifacts
+*.log
+*.pid
+
+# Build / dist
+dist/
+build/
+*.egg-info/
