@@ -30,9 +30,10 @@ The system retrieves the most relevant chunks from your documents and feeds them
 flowchart LR
 A[User Question] --> B[Retriever: FAISS Search]
 B --> C[Top-k Chunks]
-C --> D[LLM Prompt with Context]
-D --> E[LLM (Llama via Ollama)]
+C --> D[Prompt with Context]
+D --> E[LLM via Ollama]
 E --> F[Answer + Sources]
+
 ```
 
 ---
